@@ -1,0 +1,21 @@
+# Upstream competition data — fetched, never vendored. See README.
+VN1/
+
+# Derived frames: rebuilt by build_vn1_features.py in about a minute.
+data/*.parquet
+
+# Generated figures: rebuilt by the make_*.py scripts.
+figures/
+
+# Drafts that live outside the repo
+article-*.md
+archive/
+
+# Logs from background runs
+*.log
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
